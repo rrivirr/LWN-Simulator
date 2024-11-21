@@ -1,0 +1,71 @@
+{
+	"0": {
+		"id": 0,
+		"info": {
+			"devEUI": "87fa6deaaa753d17",
+			"appKey": "035e251d894e0b3f148a6610addeee32",
+			"name": "sim1",
+			"status": {
+				"mtype": "ConfirmedDataUp",
+				"payload": "hello",
+				"active": true,
+				"base64": false,
+				"aligncurrentTime": false,
+				"infoUplink": {
+					"fport": 1,
+					"fcnt": 0
+				},
+				"fcntDown": 0
+			},
+			"configuration": {
+				"region": US915,
+				"sendInterval": 60,
+				"ackTimeout": 2,
+				"range": 10000,
+				"disableFCntDown": true,
+				"supportedOtaa": true,
+				"supportedADR": true,
+				"supportedFragment": true,
+				"supportedClassB": false,
+				"supportedClassC": false,
+				"dataRate": 0,
+				"rx1DROffset": 0,
+				"nbRetransmission": 2,
+				"rssi": -60
+			},
+			"location": {
+				"latitude": 0,
+				"longitude": 0,
+				"altitude": 0
+			},
+			"rxs": [
+				{
+					"delay": 1000,
+					"durationOpen": 5000,
+					"channel": {
+						"active": true,
+						"enableUplink": true,
+						"freqUplink": 902300000,
+						"freqDownlink": 902300000,
+						"minDR": 0,
+						"maxDR": 0
+					},
+					"dataRate": 0
+				},
+				{
+					"delay": 1000,
+					"durationOpen": 3000,
+					"channel": {
+						"active": true,
+						"enableUplink": false,
+						"freqUplink": 0,
+						"freqDownlink": 923300000,
+						"minDR": 0,
+						"maxDR": 0
+					},
+					"dataRate": 0
+				}
+			]
+		}
+	}
+}
