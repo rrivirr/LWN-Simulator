@@ -18,7 +18,7 @@
 				"fcntDown": 0
 			},
 			"configuration": {
-				"region": US915,
+				"region": 2,
 				"sendInterval": 60,
 				"ackTimeout": 2,
 				"range": 10000,
